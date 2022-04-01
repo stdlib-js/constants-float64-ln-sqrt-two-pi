@@ -1,0 +1,42 @@
+{
+  "name": "@stdlib/constants-float64-ln-sqrt-two-pi",
+  "version": "0.0.0",
+  "description": "Natural logarithm of the square root of 2π.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/constants-float64-ln-sqrt-two-pi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "constant",
+    "const",
+    "mathematics",
+    "math",
+    "pi",
+    "2pi",
+    "sqrt",
+    "ln",
+    "natural",
+    "logarithm",
+    "log",
+    "square",
+    "root",
+    "ieee754",
+    "double",
+    "dbl",
+    "precision",
+    "floating-point",
+    "float64"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
