@@ -24,30 +24,38 @@ limitations under the License.
 
 > [Natural logarithm][@stdlib/math/base/special/ln] of the [square root][@stdlib/math/base/special/sqrt] of [2π][@stdlib/constants/float64/pi].
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/constants-float64-ln-sqrt-two-pi
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var LN_SQRT_TWO_PI = require( '@stdlib/constants-float64-ln-sqrt-two-pi' );
+LN_SQRT_TWO_PI = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-sqrt-two-pi@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var LN_SQRT_TWO_PI = require( 'path/to/vendor/umd/constants-float64-ln-sqrt-two-pi/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-sqrt-two-pi@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.LN_SQRT_TWO_PI;
+})();
+</script>
 ```
 
 #### LN_SQRT_TWO_PI
@@ -71,11 +79,21 @@ var bool = ( LN_SQRT_TWO_PI === 0.9189385332046728 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var LN_SQRT_TWO_PI = require( '@stdlib/constants-float64-ln-sqrt-two-pi' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-sqrt-two-pi@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 console.log( LN_SQRT_TWO_PI );
 // => 0.9189385332046728
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -165,13 +183,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float64-ln-sqrt-two-pi/main/LICENSE
 
-[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln
+[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln/tree/umd
 
-[@stdlib/math/base/special/sqrt]: https://github.com/stdlib-js/math-base-special-sqrt
+[@stdlib/math/base/special/sqrt]: https://github.com/stdlib-js/math-base-special-sqrt/tree/umd
 
 <!-- <related-links> -->
 
-[@stdlib/constants/float64/pi]: https://github.com/stdlib-js/constants-float64-pi
+[@stdlib/constants/float64/pi]: https://github.com/stdlib-js/constants-float64-pi/tree/umd
 
 <!-- </related-links> -->
 
