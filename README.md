@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import LN_SQRT_TWO_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-sqrt-two-pi@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-ln-sqrt-two-pi/tags). For example,
+
+```javascript
 import LN_SQRT_TWO_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-sqrt-two-pi@v0.2.1-esm/index.mjs';
 ```
 
@@ -72,7 +77,7 @@ var bool = ( LN_SQRT_TWO_PI === 0.9189385332046728 );
 <body>
 <script type="module">
 
-import LN_SQRT_TWO_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-sqrt-two-pi@v0.2.1-esm/index.mjs';
+import LN_SQRT_TWO_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-sqrt-two-pi@esm/index.mjs';
 
 console.log( LN_SQRT_TWO_PI );
 // => 0.9189385332046728
